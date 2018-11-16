@@ -11,3 +11,5 @@
 5、熟悉css、js、bootstrap、layui等前端知识；
 6、熟悉java、c++等语言、有全栈开发能力优先。
 7、要求3~5年工作经验。
+8.高级前端开发：react，Vue，熟悉三大框架，基础牢固，熟悉 http  tcp/ip
+9.前端三大框架Vue.js,Angularjs,React.js/ES6/NODE,SPA/SEO    NGINX
