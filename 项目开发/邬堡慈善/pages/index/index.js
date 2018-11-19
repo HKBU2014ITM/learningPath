@@ -4,9 +4,9 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '欢迎来到邬堡助学帮扶慈善事业中心',
     userInfo: {},
-    hasUserInfo: false,
+    hasUserInfo: true,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
