@@ -28,6 +28,10 @@
       {
         "pagePath": "pages/report/report",
         "text": "账目公开监督"
+      },
+      {
+        "pagePath": "pages/approve/approve",
+        "text": "审批"
       }
     ]
   },
