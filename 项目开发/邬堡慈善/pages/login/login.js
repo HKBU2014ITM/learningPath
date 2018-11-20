@@ -21,7 +21,22 @@ Page({
   },
   logIn:function(){
     var that = this
-    wx.request({
+    if(this.data.userName.length == 0 || this.data.userPassword.length == 0){
+      wx.showToast({  
+        title: '用户名密码为空',  
+        icon: 'loading',  
+        duration: 2000  
+      })  
+}else {
+
+  // 这里修改成跳转的页面
+      wx.showToast({  
+        title: '登录成功',  
+        icon: 'success',  
+        duration: 2000  
+      })  
+    }  
+  wx.request({
       url: 'http://localhost:8000/admin',
       data: {
         username: this.data.userName,
@@ -38,7 +53,7 @@ Page({
         } catch (e) {
         }
         wx.navigateTo({
-          url: '../components/welcome/welcome'
+          url: '../approve/approve'
         })
         console.log(res.data);
       },
@@ -47,5 +62,8 @@ Page({
         console.log('is failed')
       }
     })
+
   }
 })
+
+

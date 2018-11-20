@@ -4,18 +4,20 @@
     "pages/logs/logs",
     "pages/login/login",
     "pages/report/report",
-    "pages/approve/approve"
+    "pages/approve/approve",
+    "pages/adminRegister/adminRegister",
+    "pages/apply/apply"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh": true
   },
   "tabBar": {
-  "color":"#000000",
-  "selectedColor":"#00ff00",
+    "color": "#000000",
+    "selectedColor": "#00ff00",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -30,8 +32,8 @@
         "text": "账目公开监督"
       },
       {
-        "pagePath": "pages/approve/approve",
-        "text": "审批"
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
       }
     ]
   },
