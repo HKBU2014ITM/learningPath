@@ -53,7 +53,7 @@ Page({
         } catch (e) {
         }
         wx.navigateTo({
-          url: '../approve/approve'
+          url: 'pages/approve/approve'
         })
         console.log(res.data);
       },
