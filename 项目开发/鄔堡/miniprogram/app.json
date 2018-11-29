@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/home/home",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "鄔堡中心",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+  "_comment":"this is commets：這裡是底部导航栏",
+  "color": "#a9b7b7",
+  "selectedColor": "#11cd6e",
+  "borderStyle": "white",
+  "list": [
+    {
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/2.png",
+      "pagePath": "pages/home/home",
+      "text": "項目首頁"
+    },
+    {
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/2.png",
+      "pagePath": "pages/login/login",
+      "text": "輸入條目"
+    },
+    {
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/2.png",
+      "pagePath": "pages/index/index",
+      "text": "樣例首頁"
+    }]
+
+}
+}
