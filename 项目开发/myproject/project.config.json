@@ -1,0 +1,13 @@
+{
+  "description": "鄔堡",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "appid": "wxa86a2a1f01792c8c",
+  "projectname": "myfirstproject",
+  "miniprogramRoot": "./dist"
+}
